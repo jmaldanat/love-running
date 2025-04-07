@@ -154,12 +154,18 @@ nav {
 /* main content */
 
 main {
-    background-color: lightblue;
     /* Make main element take up away any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
 
+/* Hero Section*/
+
+#hero{  
+    height: 600px;
+    width: 100%;
+    background-color: url("../images/hero-image.webp") no-repeat center center/cover;
+}
 /* Footer */
 
 #social-networks{
@@ -169,7 +175,7 @@ main {
     justify-content: space-evenly;
     list-style-type: none;
 }
-    
+
 #social-networks i{
     font-size: 160%;
     padding: 5%;
